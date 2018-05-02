@@ -1,0 +1,21 @@
+.technology {
+  background: $bg-hover;
+  .section-header {
+    border-bottom: 3px solid $bg-light;
+  }
+  .card-img {
+    background: $card-img-bg-2;
+  }
+}
+.technology-container {
+  display: grid;
+  @include md {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+  }
+  @include sm {
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin: 0 auto;
+  }
+}

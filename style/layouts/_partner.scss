@@ -1,0 +1,27 @@
+.partners {
+  background: $card-img-bg-2;
+  padding-bottom: 120px;
+}
+.partners-container {
+  display: grid;
+  @include md {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 40px 100px;
+  }
+  @include sm {
+    grid-template-columns: 1fr;
+
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .partners-img {
+    padding: 10px;
+    margin: 50px auto;
+    background: $bg-hover;
+    border-radius: 5px;
+    img {
+      max-width: 100%;
+    }
+  }
+}

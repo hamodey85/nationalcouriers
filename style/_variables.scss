@@ -1,0 +1,30 @@
+$url-path: "../";
+
+// GRID Variables
+
+// For Small Mobiles
+$screen-xs-min: 370px;
+$screen-xs-max: 575.99px;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+$screen-sm-max: 767.99px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+$screen-md-max: 991.99px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+$screen-lg-max: 1199.99px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// colors
+$bg-light: #efefef;
+$bg-dark: #444444;
+$bg-hover: #31869a;
+$highlight: #131212;
+$card-img-bg: #e79e9e;
+$card-img-bg-2: $bg-light;
