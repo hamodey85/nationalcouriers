@@ -4,7 +4,6 @@
     border-bottom: 3px solid $bg-light;
   }
   .card-img {
-    background: $card-img-bg-2;
   }
 }
 .technology-container {
@@ -15,7 +14,7 @@
   }
   @include sm {
     grid-template-columns: 1fr;
-    width: 70%;
+
     margin: 0 auto;
   }
 }

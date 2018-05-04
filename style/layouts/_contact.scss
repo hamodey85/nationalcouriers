@@ -28,25 +28,49 @@
   font-weight: bold;
   line-height: 1.5;
   color: #111;
+
   h4 {
-    padding: 0 0 20px;
+    padding: 20px 0;
     border-bottom: 3px solid $bg-hover;
   }
 
-  p:nth-child(2) {
-    margin-top: 50px;
-  }
-  p:nth-child(5) {
-    margin-top: 100px;
-  }
-  span {
-    color: #eee;
+  p {
+    line-break: normal;
+    word-break: break-all;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    &:nth-child(2) {
+      margin-top: 40px;
+      grid-column: 1 / 4;
+    }
+    &:nth-child(6) {
+      margin-top: 70px;
+    }
   }
 
+  span {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    overflow: hidden;
+  }
+  a {
+    color: #111;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+  }
   @include sm {
     padding: 10px;
     p {
       font-size: 0.8rem;
+    }
+    a {
+      font-size: 0.9rem;
     }
   }
 }
